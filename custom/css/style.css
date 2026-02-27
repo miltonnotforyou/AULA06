@@ -1,0 +1,79 @@
+
+body
+{
+    font-family: "poppins", sans-serif;
+          
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: "Newsreader", serif;
+    font-weight: 600!important; /*sobrepõe o bootstrap */
+    
+}
+
+/* -----------------------Cabeçalho----------------- */
+
+.navbar-brand, .recursos h2
+{
+    font-family: "kanit", sans-serif;
+    font-weight: 500;
+}
+
+       /* ---------------------Banner-------------- */
+
+.display-1
+{
+    font-weight: 600;
+}
+
+#banner
+{
+    padding: 80px 0;
+}
+
+/* -------------------------------Depoimento-------------------- */
+
+.depoimento, .baixe_app
+{
+    background: linear-gradient(45deg, #2937f0, #9f1ae2);
+    padding: 70px 0;
+}
+
+
+
+/* ----------------------------Parallax------------------- */
+
+.parallax
+{
+    padding: 150px 0;
+    background: #333 url(../../assets/img/bg-section.jpg) center center fixed no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.btn
+{
+    border-radius: 30px;
+}
+
+/* Rodape */
+
+.rodape a
+{
+    color: #9f1ae2;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+           /* ---------------------Media Queris-------------- */
+
+@media(min-width: 992px)
+{
+    .display-1
+    {
+        font-size: 6rem;
+    }
+}
+

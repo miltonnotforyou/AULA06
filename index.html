@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Bootstrap</title>
+
+    <!-- BOOTSTRAP -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+      <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+     <!-- CSS SEMPRE DEPOIS DO BOOTSTRAP -->
+     <link rel="stylesheet" href="custom\css\style.css">
+
+    
+</head>
+<body>
+            <!-- Inicio cabecalho -->
+    <header class="topo py-3 bg-body-tertiary shadow-sm">  <!-- pading e background -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container"> 
+                <!-- final cabecalho -->
+
+                <!-- logotipo -->
+                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <!-- Final logotipo -->
+                
+                <!-- menu hamburguer -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <!-- navegação -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto"> <!-- ms-auto alinha o menu a direita -->
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre nós</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Portifólio</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                        </li>                       
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- incio banner -->
+     <section id="banner">
+        <div class="container">
+            <div class="row align-items-md-center">
+                <div class="col-md-6 text-center text-md-start mb-5 mb-md-0">
+                    <h1 class="display-1">Apresente seu app.</h1>
+
+                    <p class="lead text-body-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, tempore.</p>
+                    
+                    <!-- Botões lojas de Apps -->
+                    <div class="d-flex flex-column flex-sm-row justify-content-center  justify-content-md-start">
+                        <a href="#" target="_blank" class="mb-2 mb-sm-0 me-sm-2">
+                            <img src="assets\img\google-play.png" alt="google play">
+                        </a>
+                        
+                        <a href="#" target="_blank"><img src="assets\img\app-store.png" alt="App play"></a>
+                        
+                    </div>
+                </div>
+                
+                <!-- Gravura smartphone -->
+                <div class="col-md-6 text-center">
+                    <img src="assets\img\phone01.png" alt="Smartphone" class= img-fluid>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- final banner -->
+
+    <!-- -----------------------inicio Depoimentos------------------- -->
+            <section class="depoimento">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8 text-center text-white">
+                            <h2 class="mb-4">"Uma solução intuitiva para um problema comum que todos enfrentamos, em um único aplicativo!"</h2>
+
+                            <img src="assets\img\tnw-logo.svg" alt="The Next Web" style = "height: 3rem">
+                        </div>
+                    </div>
+                </div>
+            </section>
+    <!-- -----------------------inicio Depoimentos------------------- -->
+
+    <!-- --------------------------Inicio Recursos------------------->
+            <section class="recursos py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 text-center mb-5 mb-lg-0">
+                            <img src="assets\img\phone02.png" alt="Smartphone" class="img-fluid">
+                        </div>
+
+                        <div class="col-lg-8">
+                            <div class="row text-center">
+                                <div class="col-md-6 mb-5">
+                                    <img src="assets\img\icones\phone.png" alt="dispositivos" class="img-fluid mb-3">
+
+                                    <h2>Dispositivos</h2>
+                                    <p class="text-body-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, distinctio.</p>
+
+                                </div>
+
+                                <div class="col-md-6 mb-5">
+                                    <img src="assets\img\icones\camera.png" alt="Flexível" class="img-fluid mb-3">
+
+                                    <h2>Uso Flexível</h2>
+                                    <p class="text-body-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, distinctio.</p>
+
+                                </div>
+
+                                <div class="col-md-6 mb-5">
+                                    <img src="assets\img\icones\gift.png" alt="Livre Para Usar" class="img-fluid mb-3">
+
+                                    <h2>Livre Para Usar</h2>
+                                    <p class="text-body-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, distinctio.</p>
+
+                                </div>
+
+                                <div class="col-md-6 mb-5">
+                                    <img src="assets\img\icones\sale.png" alt="Código Aberto" class="img-fluid mb-3">
+
+                                    <h2>Código Aberto</h2>
+                                    <p class="text-body-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, distinctio.</p>
+
+                                </div>
+                                                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+    <!-- --------------------------Final Recursos------------------->
+
+    <!-- --------------------------inicio destaque------------------->
+            <section class="destaque bg-light py-5">
+                <div class="container">
+                    <div class="row text-center text-lg-start align-items-center justify-content-lg-between">
+                        <div class="col-lg-6">
+                            <h2 class="display-3">Entre na nova era do web design</h2>
+                            <p class="lead text-body-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe eius ad repudiandae non molestias possimus ipsam placeat sunt harum et.</p>
+                            
+                        </div>
+
+                        <div class="col-lg-5">
+                            <img src="assets\img\bg.jpg" alt="" class="img-fluid rounded-circle">
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+     <!-- --------------------------Final destaque------------------->
+
+     <!-- --------------------------Inicio Parallax------------------->
+            <section class="parallax text-white">
+                <div class="container">
+                    <h2 class="display-2">Pare de esperar. <br> Comece a fazer.</h2>
+
+                    <a href="#" class="btn btn-outline-light py-3 px-4" download>Download Gratis</a>
+                </div>
+            </section>
+
+      <!-- --------------------------Final Parallax------------------->
+
+      <!-- --------------------------Inicio App------------------->
+       <section class="baixe_app">
+        <div class="container text-white text-center">
+            <h2>Baixe o app Agora!</h2>
+
+             <!-- Botões lojas de Apps -->
+                    <div class="d-flex flex-column flex-sm-row justify-content-center">
+                        <a href="#" target="_blank" class="mb-2 mb-sm-0 me-sm-2">
+                            <img src="assets\img\google-play.png" alt="google play">
+                        </a>
+                        
+                        <a href="#" target="_blank"><img src="assets\img\app-store.png" alt="App play"></a>
+                        
+                    </div>
+        </div>
+       </section>
+      <!-- --------------------------Final App------------------->
+
+       <!-- ------------------------Inicio rodape----------------->
+        <footer class="rodape text-white text-center py-3 bg-black">
+            <p class="m-0">2026 &copy; Start Bootstrap. Desenvolvido por <a href="https://github.com/miltonnotforyou" target="_blank">Milton Silva</a></p>
+
+        </footer>
+       <!-- ------------------------Final rodape----------------->
+    
+    <!-- bootstrap js sempre antes do fechamento do body-->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
